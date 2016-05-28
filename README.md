@@ -1,3 +1,26 @@
+#DevOps with Nodepop
+
+To use a complet API an deploy it on a server, we use the API Nodepop developed by Javier Miguel jamg44.
+
+## links
+
+If no need to have a specific knowlege of what can you do with this API, yaou can read the complete guide that you have in this file.
+
+You can see some examples and fases that you need to do previosly the deploy...
+
+this Api its hosted in: [http://ec2-23-22-13-95.compute-1.amazonaws.com/](http://ec2-23-22-13-95.compute-1.amazonaws.com/).
+
+We use a elastic IP: [http://23.22.13.95/](http://23.22.13.95/) , where there is deployed a Bootstrap theme.
+
+We use NGINX to served the static files, if you want to check it,you can see the info when you visit th nodepop API or you can use the chrome developers tools and visit these two links:
+
+[http://ec2-23-22-13-95.compute-1.amazonaws.com/images/anuncios/bici.jpg](http://ec2-23-22-13-95.compute-1.amazonaws.com/images/anuncios/bici.jpg)
+
+[http://ec2-23-22-13-95.compute-1.amazonaws.com/stylesheets/style.css](http://ec2-23-22-13-95.compute-1.amazonaws.com/stylesheets/style.css)
+
+In both cases, we put a header with de X-owner.
+
+This API have persistence that works with PM2 and works fine and protected with file2ban.
 
 # NodePop
 
